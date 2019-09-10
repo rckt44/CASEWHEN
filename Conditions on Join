@@ -1,0 +1,11 @@
+/*This is to show the example of using case when statement during join in sql*/
+/*======================================================================================
+From Table 1 mbr
+inner join Table2 pc
+on 
+mbr.firstvar=pc.pcvar
+and 
+mbr.emp_id=(case when pc.ph_id='TYC' then 'HYG' else pc.ph_id end)
+and 
+mbr.twovar=pc.flag
+==========================================================================================*/
